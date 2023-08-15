@@ -1,0 +1,99 @@
+:root{
+    --border-radius: 0.125rem;
+    --calendar-offset: 2rem;
+    --width: 18.75rem;
+    --height: 25rem;
+    --color-paper-dark: #fff19f;
+    --color-paper-darker: #ffed87;
+    --color-paper-light: #fffadb;
+    --color-text: #000;
+    --color-weekend: #d00;
+    --color-bg: #1b2531;
+    --font-size: clamp(1rem, calc(1rem + 1vw), 2rem);
+    --font-family: "Lora", serif;
+    --font-text: bold var(--font-size) / 1 var(--font-family);
+}
+body{
+    margin: 0;
+    background-color: var(--color-bg);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    outline: 0;
+}.wrap{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calendar{
+    border-radius: var(--border-radius);
+    width: var(--width);
+    height: var(--height);
+    background-color: brown;
+    position: relative;
+}
+.calendar__scrpas{
+    position: absolute;
+    top: calc(var(--calendar-offset) / 2);
+    left: calc(var(--calendar-offset) / 2);
+    background-color: var(--color-paper-dark);
+    height: 2.5rem;
+    width: var(100% - var(--calendar-offset));
+    clip-path: url(#scrap-leaf-path);
+    transform: scale(-1);
+    z-index: 6;
+}
+.calendar__scrpas--1{
+    background-color: rgba(0, 0, 0, 0.25);
+    top: calc(var(--calendar-offset) / 2 + 1px);
+    z-index: 5;
+}
+.calendar__scrpas--2{
+    background-color: rgba(0, 0, 0, 0.25);
+    top: calc(var(--calendar-offset) / 2 + 2px);
+    z-index: 5;
+}
+.calendar__scrpas--3{
+    background-color: rgba(0, 0, 0, 0.25);
+    top: calc(var(--calendar-offset) / 2 + 3px);
+    z-index: 5;
+}
+.calendar__scrpas--4{
+    background-color: rgba(0, 0, 0, 0.25);
+    top: calc(var(--calendar-offset) / 2 + 4px);
+    z-index: 5;
+}
+.calendar__scrpas--5{
+    background-color: rgba(0, 0, 0, 0.25);
+    top: calc(var(--calendar-offset) / 2 + 5px);
+    z-index: 5;
+}
+.calendar__assist{
+    position: absolute;
+    bottom: -2rem;
+    color: #fff;
+    font: bold 1rem/1 Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 100%;
+    opacity: 0;
+    animation: blink 0.54s ease-in-out 7 1s alternate;
+
+}
+.calendar__peg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -3rem;
+    z-index: -1;
+}
+.calendar__peg-nail {
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #aaa9ad;
+    border-radius: 50%;
+}

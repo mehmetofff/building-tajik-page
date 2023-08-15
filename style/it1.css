@@ -1,0 +1,10 @@
+body{
+    background: grey;
+}    
+#qw{
+    width: 640px;
+    height: 500px;
+    margin-bottom: 200px;
+        background-color: rgb(74, 74, 135);
+    border: 4px solid black;
+}

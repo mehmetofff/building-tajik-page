@@ -1,0 +1,105 @@
+body{
+    background: ghostwhite;
+    color: dimgray;
+    font-family: 'Quicsand', serif;
+    text-align: center;
+}
+h1{font-size: 200%;}
+#container{
+    margin: 5% auto;
+    border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+    text-align: center;
+}
+.box{
+    display: inline-block;
+    border: 1px solid grey;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+    padding: 0px;
+}
+span{
+    position: absolute;
+    font-size: 75px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    height: 75px;
+    width: 75px;
+    padding: 0px;
+    margin: 5px;
+    margin-left: -35px;
+}
+.top{
+    border-top: none;
+
+}
+.buttom{
+    border-top: none;
+    
+}
+.left{
+    border-top: none;
+    
+}
+.right{
+    border-top: none;
+    
+}
+.alert{
+    height: 75px;
+    width: 75px;
+    display: inline-block;
+    background: ghostwhite;
+    position: relative;
+    z-index: 7;
+    margin-top: -50%;
+    border-radius: 20px; -webkit-border-radius: 20px; -moz-border-radius: 20px;    
+    box-shadow: 0 0 75px 2px dimgray;
+    animation: larger 0.5s; -webkit-animation: larger 0.5s; -moz-animation: larger 0.5s;
+    animation-fill-mode: forwards; -webkit-animation-fill-mode: forwards; -moz-animation-fill-mode: forwards;
+    box-sizing: content-box; -webkit-box-sizing: content-box; -moz-box-sizing: content-box;
+    padding: 30px;
+    bottom: 50px;
+    top: 0;
+}
+
+@keyframes larger{from{height: 75px; width: 75px;}to{height: 100px; width: 250px;}}
+@-webkit-keyframes larger{from{height: 75px; width: 75px;}to{height: 100px; width: 250px;}}
+@-moz-keyframes larger{from{height: 75px; width: 75px;}to{height: 100px; width: 250px;}}
+@-o-keyframes larger{from{height: 75px; width: 75px;}to{height: 100px; width: 250px;}}
+
+biutton{
+    background: dimgray;
+    border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px;
+    color: ghostwhite;
+    border: none;
+    outline: none;
+}
+button:focus{background: silver;}
+.activeBox{background: silver;}
+
+nav {
+    display: block;
+    width: 660px;
+    margin: 0 auto 30px;
+  }
+
+  .three ul {
+    padding: 0;
+    background: #E4EFD1;
+  }
+  .three li {
+    display: inline-block;
+  }
+  .three a {
+    padding: 1em;
+    display: block;
+    color: #74924C;
+    border-right: 1px solid #BAD78B;
+    background: rgba(186, 215, 139, .3);
+  }
+  .three a:hover {
+      transition: 2s;
+      background: #BAD78B;
+    }

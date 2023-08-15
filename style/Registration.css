@@ -1,0 +1,157 @@
+body{
+    background: white;
+}
+#one{
+    width: 100%;
+    height: 50px;
+    border: 2px solid black;
+    background-color: grey;
+}
+#two{
+font-family: sans-serif;
+    float: left;
+
+}
+
+#search{
+  width: 250px;
+  height: auto;
+}
+
+.poisk{
+  width: 28px;
+  height: 30px;
+  margin-top: -15px;
+  border-radius: 5px;
+}
+
+.pois{
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: -14px;
+  margin-left: -14px;
+}
+ 
+
+body{
+    background-color: white;
+}
+
+.one{
+    width: 100%;
+    height: 60px;
+    border: 2px solid black;
+    background-color: rgb(228, 239, 209);
+    border-radius: 10px;
+}
+
+ul {
+    list-style: none; 
+    margin: 0 auto;
+  }
+
+
+
+  a {
+    text-decoration: none;
+    font-family: 'Lora', serif;
+    transition: .5s linear;
+  }
+  i {
+    margin-right: 10px;
+    width: 5%;
+  }
+  nav {
+    display: block;
+    width: 660px;
+    margin: 0 auto 30px;
+  }
+
+  .three ul {
+    padding: 0;
+    background: #E4EFD1;
+  }
+  .three li {
+    display: inline-block;
+  }
+  .three a {
+    padding: 1em;
+    display: block;
+    color: #74924C;
+    border-right: 1px solid #BAD78B;
+    background: rgba(186, 215, 139, .3);
+  }
+  .three a:hover {background: #BAD78B}
+
+#two{
+font-family: sans-serif;
+    float: left;
+
+    padding: 15px;
+    text-decoration: overline;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+td{
+	width:180px;
+	height:100px;
+	border:2px solid black
+}
+
+
+
+.ses{
+    
+
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 550px;
+    margin-top: 300px;
+
+}
+
+.smailzur{
+    width: 50px;
+    height: 20px;
+}
+
+
+.four{
+    width: 160px;
+    height: 700px;
+    border: 2px solid black;
+    background: rgb(228, 239, 209);
+    float: left;
+}
+ 
+
+#but-log{
+  margin-left: 10px;
+}
+
+
+
+#bir{
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 10px;
+margin-left: 500px;
+}
+
+
+#img{
+	width:160px;
+	height:120px;
+}
+
+
+img{
+    width: 500px;
+    height: 700px;
+}
+

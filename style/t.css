@@ -1,0 +1,22 @@
+html, body{
+    scroll-behavior: smooth;
+    display: grid;
+    grid-template-columns: auto 0px;
+}
+
+.top{
+    display: grid;
+    place-items: center;
+    position: sticky;
+    bottom: 20px;
+    right: 20px;
+    place-self: end;
+    margin-top: calc(100vh + 50px);
+    text-decoration: none;
+    width: 80px;
+    height: 40px;
+    font-family: sans-serif;
+    color: calc(#fff);
+    background: #6600ff;
+    border-radius: 6.5px;
+}

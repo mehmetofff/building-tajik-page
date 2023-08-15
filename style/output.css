@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+}
+
+.card{
+    overflow: hidden;
+    position: relative; 
+}
+img{
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+    transition: transform 200ms;
+}
+.card:hover > img{
+    transform: scale(1.05);
+}
+
+.imoji{
+    background-color: aqua;
+}

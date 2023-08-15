@@ -1,0 +1,152 @@
+body{
+    background-color: white;
+}
+#one{
+    width: 100%;
+    height: 50px;
+    border: 2px solid black;
+    background: linear-gradient(to right, gold, yellow  );
+}
+#two{
+font-family: sans-serif;
+    float: left;
+
+}
+
+
+
+
+
+#qa{
+    width: 140px;
+    height: 50px;
+    margin-left: 20px;
+    background-color: red;
+}
+
+#q{
+    width: 140px;
+    height: 50px;
+    margin-left: 20px;
+    background-color: grey;
+}
+
+#a{
+    width: 140px;
+    height: 50px;
+    margin-left: 20px;
+    background-color: blue;
+   color: red;
+}
+#v{
+    width: 140px;
+    height: 50px;
+    margin-left: 20px;
+    background-color: violet;
+}
+
+#four{
+    width: 140px;
+    height: 700px;
+    border: 2px solid black;
+    background: linear-gradient(to right, orange, green);
+    float: left;
+}
+#five{
+    float: left;
+    width: 1000px;
+    height: 670px;
+    border: 2px solid black;
+    margin-left: 230px;
+    margin-top: -700px;
+    background-color: grey;
+}
+#six{
+    width: 300px;
+    height: 300px;
+border: 2px solid black;
+margin: 20px;
+}
+#seven{
+    width: 600px;
+    height: 300px;
+border: 2px solid black;
+margin: 20px;
+}
+
+#eight{
+    width: 300px;
+    height: 280px;
+border: 2px solid black;
+margin: 20px;
+}
+
+#nine{
+    width: 600px;
+    height: 300px;
+border: 2px solid black;
+margin: 20px;
+float: left;
+}
+#ten{
+    margin-top: 20px;
+    text-align: center;
+    float: left;
+    width: 100%;
+    height: 180px;
+ border: 2px solid black;
+ background: darkgray;
+
+}
+legend{
+    font-family: Rodeo Tojik;
+}
+ul{
+    font-family: Algerian;
+}
+ol{
+    font-family: Goudy Stout;
+}
+#bir{
+    width: 60px;
+    height: 50px;
+    background: url('');
+}
+.ikk{
+    background-image: url('apple.png');
+    text-align: center;
+}
+
+.uch{
+    background-image: url('CAAA.png');
+    text-align: center;
+}
+.tur{
+    background-image: url('REEE.png');
+    text-align: center;
+}
+
+.besh{
+    background-image: url('HUUU.png');
+    text-align: center;
+}
+
+.olti{
+    background-image: url('POOO.png');
+    text-align: center;
+}
+.yetti{
+    background-image: url('INOO.png');
+    text-align: center;
+}
+.sakkiz{
+    background-image: url('NOOOOK.png');
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: crimson;
+}
+
+
+
+
+
