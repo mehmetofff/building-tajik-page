@@ -1,0 +1,32 @@
+
+
+* {
+    margin: 0%;
+    
+}
+
+.o_nas {
+    width: 100%;
+    height: 70px;
+    display:flex;
+    border: 2px solid gray;
+    background-color: gray;
+}
+
+.o_naas{
+    display: flex;
+    padding: 25px;
+}
+
+.o_nass {
+  display: flex;
+  padding: 25px;
+ margin-left: 190px;
+}
+
+.text {
+    padding-left: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+  
